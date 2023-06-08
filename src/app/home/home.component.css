@@ -16,6 +16,7 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 }
 
+
 .cont-logo{
 height: 100%;
 display: flex;
