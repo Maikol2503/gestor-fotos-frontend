@@ -1,0 +1,100 @@
+<div class="nav contenedor1">
+	<ul class="lista">
+		<li>
+			<div class="cont-logo">
+				<h1 class="logo">Gallery</h1>
+			</div>
+		</li>
+		<li>
+			<ul class="iconos">
+				<li><img src="../assets/casa.png" alt=""></li>
+				<li><img src="../assets/lupa.png" alt=""></li>
+				<li><img src="../assets/corazon (1).png" alt=""></li>
+			</ul>
+		</li>
+		<li class="user">
+			<img class="imagen-user" src="../assets/avatar.jpg" alt="">
+		</li>
+	</ul>
+</div>
+
+
+
+
+
+<div class="barra-de-filtros contenedor2">
+	<div></div>
+	<div class="tipo-archivo">
+		<p class="todos">Todos</p>
+		<p name="imagenes" id="">Imagenes</p>
+		<p name="videos" id="">Videos</p>
+	</div>
+	<div class="agregar">
+		<div class="filtro">
+	 <img (click)="mostrarBarraFiltro()" src="../../assets/filtrar.png" alt="">
+			<ul *ngIf="mostrarBarraDeFiltro" class="lista-filtro" >
+				<li><label class="recientes" for="recientes">Recientes primero</label><input class="radio" type="radio" value="recientes" id="recientes" name="filtrar"></li>
+				<li><label for="antiguos">Antiguos primero</label><input class="radio" type="radio" value="antiguos" id="antiguos" name="filtrar"></li>
+				<li><label for="masPopular">Mas populares primero</label><input class="radio" type="radio" value="masPopular" id="masPopular" name="filtrar"></li>
+    <li><label for="menosPopular">Mas antiguos primero</label><input class="radio" type="radio" value="menosPopular" id="menosPopular" name="filtrar"></li>
+			</ul>
+ 	</div>
+  <img class="agregar-img" routerLink="/agregar" src="../assets/agregar.png" alt="" title="agregar nuevo archivo">
+ </div>
+ 
+	<!-- <div class="right">
+		<div class="ordenar" title="Filtrar">
+			<select name="ordenar" id="">
+				<option value="mas recientes primero">Mas recientes primero</option>
+				<option value="mas antiguos primero">Mas antiguos primero</option>
+				<option value="mas populares primero">Mas populares primero</option>
+				<option value="menos populares primero">Menos populares primero</option>
+			</select>
+		</div>
+		<img routerLink="/agregar" src="../assets/agregar.png" alt="" title="agregar nuevo archivo">
+	</div> -->
+	
+	
+</div>
+<div class="archivos contenedor2">
+	<div class="card">
+		<img src="../assets/fotos/foto.png" alt=""> 
+		<div class="detalles">
+			<p class="fecha">01/02/2023</p>
+			<p class="titulo">Titulo aqui</p>
+			<p class="ratink">.....</p>
+		</div>
+	</div>
+<div class="card">
+		<img src="../assets/fotos/25215-los-simpsons.jpg" alt=""> 
+		<div class="detalles">
+			<p class="fecha">01/02/2023</p>
+			<p class="titulo">Titulo aqui</p>
+			<p class="ratink">.....</p>
+		</div>
+	</div>
+<div class="card">
+		<img src="../assets/fotos/79749-fogata.jpg" alt=""> 
+		<div class="detalles">
+			<p class="fecha">01/02/2023</p>
+			<p class="titulo">Titulo aqui</p>
+			<p class="ratink">.....</p>
+		</div>
+	</div>
+<div class="card">
+		<img src="../assets/fotos/foto.png" alt=""> 
+		<div class="detalles">
+			<p class="fecha">01/02/2023</p>
+			<p class="titulo">Titulo aqui</p>
+			<p class="ratink">.....</p>
+		</div>
+	</div>
+<div class="card">
+		<img src="../../assets/fotos/men-1777352_1280.jpg" alt=""> 
+		<div class="detalles">
+			<p class="fecha">01/02/2023</p>
+			<p class="titulo">Titulo aqui</p>
+			<p class="ratink">.....</p>
+		</div>
+	</div>
+</div>

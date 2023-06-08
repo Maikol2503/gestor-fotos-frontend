@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+ list-style: none;
+ text-decoration: none;
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+ font-family: sans-serif;
+}
+
+
+body{
+background-color: #181a1f;
+}
+
+.contenedor1{
+ max-width: 1400px;
+ margin: 0 auto;
+}
+
+.contenedor2{
+ max-width: 1200px;
+ margin: 0 auto;
+}
